@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:padding="16dp">
+
+	<TextView
+		android:id="@+id/menu_item_1"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="联系作者"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		android:padding="10dp"/>
+
+	<TextView
+		android:id="@+id/menu_item_2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="关于软件"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		android:padding="10dp"/>
+
+	<TextView
+		android:id="@+id/menu_item_3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="退出软件"
+		android:textColor="#000000"
+		android:textSize="12dp"
+		android:padding="10dp"/>
+
+</LinearLayout>
+

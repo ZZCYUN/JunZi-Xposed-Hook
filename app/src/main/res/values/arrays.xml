@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="xposed_scope">
+		<item>com.turbochilli.rollingsky</item>
+        <item>fun.music.rollingsky.mi</item>
+        <item>com.turbochilli.rollingsky_cn.huawei</item>
+		<item>com.turbochilli.rollingsky_cn.vivo</item>
+        <item>com.bravedefault.pixivlite_android.lite</item>
+        <item>com.cmplay.dancingline</item>
+        <item>com.fgol.hsw.zq</item>
+        <item>com.fgol</item>
+        <item>com.llmm.huiyuanuxiang</item>
+        <item>com.llmm.huiyuanuxiang.p3</item>
+        <item>com.luna.music</item>
+        <item>com.wbxm.icartoon</item>
+        <item>com.ldxs.reader</item>
+        <item>com.bilibili.deadcells.mobile</item>
+        <item>com.wifi.reader.jinshu</item>
+        <item>com.jz.xydj</item>
+    </string-array>
+
+</resources>

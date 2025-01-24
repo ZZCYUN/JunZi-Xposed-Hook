@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center_horizontal"
+	android:background="#FAFAFA">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="100dp"
+		android:gravity="center">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="JunZi Xposed Hook"
+			android:textSize="35dp"
+			android:layout_margin="10dp"/>
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="支持的软件和版本"
+			android:textSize="16dp"/>
+
+	</LinearLayout>
+
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical">
+
+			<include
+				android:id="@+id/layout1"
+				layout="@layout/app_ui"/>
+
+			<include
+				android:id="@+id/layout2"
+				layout="@layout/app_ui"/>
+
+			<include
+				android:id="@+id/layout3"
+				layout="@layout/app_ui"/>
+
+			<include
+				android:id="@+id/layout4"
+				layout="@layout/app_ui"/>
+
+			<include
+				android:id="@+id/layout5"
+				layout="@layout/app_ui"/>
+
+			<include
+				android:id="@+id/layout6"
+				layout="@layout/app_ui"/>
+
+			<include
+				android:id="@+id/layout7"
+				layout="@layout/app_ui"/>
+            
+            <include
+                android:id="@+id/layout8"
+				layout="@layout/app_ui"/>
+            
+            <include
+                android:id="@+id/layout9"
+				layout="@layout/app_ui"/>
+            
+            <include
+                android:id="@+id/layout10"
+				layout="@layout/app_ui"/>
+            
+            <include
+                android:id="@+id/layout11"
+				layout="@layout/app_ui"/>
+
+            <include
+                android:id="@+id/layout12"
+				layout="@layout/app_ui"/>
+            
+            <include
+                android:id="@+id/layout13"
+				layout="@layout/app_ui"/>
+		</LinearLayout>
+
+	</ScrollView>
+
+</LinearLayout>
+
